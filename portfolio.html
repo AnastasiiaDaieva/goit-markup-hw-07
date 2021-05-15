@@ -12,12 +12,12 @@
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
 
-  <link rel="stylesheet" href="./CSS/styles.css" />
+  <link rel="stylesheet" href="./CSS/main.min.css" />
 </head>
 
 <body>
   <header class="header">
-    <div class="container">
+    <div class="container header__container">
       <nav class="header__nav">
         <a href="./index.html" class="logo header__logo">
           <span class="logo logo--accent">Web</span>Studio
@@ -51,18 +51,18 @@
   <main>
     <section class="section portfolio">
       <div class="container">
-        <h1 class="portfolio__heading visually-hidden">Портфолио</h1>
+        <h1 class="second-heading visually-hidden">Портфолио</h1>
         <ul class="portfolio__buttons list">
-          <li class="portfolio__filter"><button type="button" class="portfolio__button button--cursor">Все</button></li>
+          <li class="portfolio__filter"><button type="button" class="portfolio__button">Все</button></li>
           <li class="portfolio__filter">
-            <button type="button" class="portfolio__button button--cursor">Веб-сайты</button>
+            <button type="button" class="portfolio__button">Веб-сайты</button>
           </li>
           <li class="portfolio__filter">
-            <button type="button" class="portfolio__button button--cursor">Приложения</button>
+            <button type="button" class="portfolio__button">Приложения</button>
           </li>
-          <li class="portfolio__filter"><button type="button" class="portfolio__button button--cursor">Дизайн</button></li>
+          <li class="portfolio__filter"><button type="button" class="portfolio__button">Дизайн</button></li>
           <li class="portfolio__filter">
-            <button type="button" class="portfolio__button button--cursor">Маркетинг</button>
+            <button type="button" class="portfolio__button">Маркетинг</button>
           </li>
         </ul>
         <ul class="cardset list">
@@ -209,7 +209,7 @@
     </section>
   </main>
   <footer class="footer">
-    <div class="container">
+    <div class="container footer__container">
       <div class="address-container">
         <a href="./index.html" class="footer__logo"><span class="logo logo--accent">Web</span>Studio</a>
         <address class="footer__address">
@@ -219,9 +219,9 @@
                 class="footer__link">г. Киев, пр-т Леси Украинки, 26</a>
             </li>
             <li class="footer__mail">
-              <a href="mailto:info@example.com" class="footer__link footer-contact">info@example.com</a>
+              <a href="mailto:info@example.com" class="footer__link footer__contact">info@example.com</a>
             </li>
-            <li><a href="tel:+380991111111" class="footer__link footer-contact">+38 099 111 11 11</a></li>
+            <li><a href="tel:+380991111111" class="footer__link footer__contact">+38 099 111 11 11</a></li>
           </ul>
         </address>
       </div>
@@ -264,7 +264,7 @@
           <h2 class="footer__text">Подпишитесь на рассылку</h2>
           </label>
           <input type="subscribe" name="subscribe" class="footer__input" id="subscribe" placeholder="E-mail">
-          <button type="submit" class="button button--cursor">
+          <button type="submit" class="button">
             <p class="footer__button">Подписаться</p>
             <span>
               <svg class="footer__svg">
